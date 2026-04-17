@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon Projet Final - Exemple</title>
+</head>
+<body>
+  <header>
+    <h1>Mon Projet Final</h1>
+    <nav aria-label="Navigation principale">
+      <a href="#presentation">Présentation</a> |
+      <a href="#galerie">Galerie</a> |
+      <a href="#ressources">Ressources</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="presentation" aria-labelledby="pres-title">
+      <h2 id="pres-title">Présentation</h2>
+      <p>Bienvenue sur ma page finale. Ce projet démontre l'utilisation des balises sémantiques, des images accessibles et d'une structure HTML valide.</p>
+    </section>
+
+    <section id="galerie" aria-labelledby="gal-title">
+      <h2 id="gal-title">Galerie</h2>
+
+      <p>Voici trois images avec des descriptions utiles (attributs alt) :</p>
+
+      <ul>
+        <li>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&h=600&fit=crop" alt="Coucher de soleil orange sur un lac avec des arbres en silhouette" width="480" height="320">
+            <figcaption>Coucher de soleil au bord du lac.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&h=600&fit=crop" alt="Gros plan d'une feuille d'érable rouge à l'automne" width="480" height="320">
+            <figcaption>Feuille d'automne en gros plan.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=800&h=600&fit=crop" alt="Façade d'une bibliothèque historique en pierre avec colonnes" width="480" height="320">
+            <figcaption>Entrée d'une bibliothèque historique.</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <article id="ressources" aria-labelledby="res-title">
+      <h2 id="res-title">Ressources et liste</h2>
+
+      <p>Quelques éléments que j'ai appris ou utilisés pour ce projet :</p>
+
+      <ol>
+        <li>Utiliser des balises sémantiques pour structurer le contenu.</li>
+        <li>Fournir des textes alternatifs (alt) descriptifs pour les images.</li>
+        <li>Valider le code avec le validateur W3C et tester l'accessibilité avec WAVE.</li>
+      </ol>
+
+      <h3>Liens utiles</h3>
+      <p>Documentation HTML recommandée : <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN - HTML (en français)</a></p>
+    </article>
+  </main>
+
+  <footer>
+    <p>Créé par Ton Nom — Hébergé sur GitHub Pages (exemple).</p>
+  </footer>
+</body>
+</html>
